@@ -1,151 +1,151 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
+  <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>*|MC:SUBJECT|*</title>
+        <title>Welcome {{$result['username']}}</title>
         <style type="text/css">
-			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
-			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
-			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
-			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
-			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
-			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+      /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+      #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+      .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+      body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+      table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+      img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
-			body{margin:0; padding:0;}
-			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-			table{border-collapse:collapse !important;}
-			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+      /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+      body{margin:0; padding:0;}
+      img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+      table{border-collapse:collapse !important;}
+      body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
-			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+      /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
 
-			/* ========== Page Styles ========== */
+      /* ========== Page Styles ========== */
 
-			#bodyCell{padding:20px;}
-			#templateContainer{width:600px;}
+      #bodyCell{padding:20px;}
+      #templateContainer{width:600px;}
 
-			#templateContainer{
-				border:1px solid #BBBBBB;
-			}
+      #templateContainer{
+        border:1px solid #BBBBBB;
+      }
 
-			h1{
-				color:#202020 !important;
-				display:block;
-				font-family:Helvetica;
-				font-size:26px;
-				font-style:normal;
-				font-weight:bold;
-				line-height:100%;
-				letter-spacing:normal;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				text-align:left;
-			}
+      h1{
+        color:#202020 !important;
+        display:block;
+        font-family:Helvetica;
+        font-size:26px;
+        font-style:normal;
+        font-weight:bold;
+        line-height:100%;
+        letter-spacing:normal;
+        margin-top:0;
+        margin-right:0;
+        margin-bottom:10px;
+        margin-left:0;
+        text-align:left;
+      }
 
-			h2{
-				color:#404040 !important;
-				display:block;
-				font-family:Helvetica;
-				font-size:20px;
-				font-style:normal;
-				font-weight:bold;
-				line-height:100%;
-				letter-spacing:normal;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				text-align:left;
-			}
+      h2{
+        color:#404040 !important;
+        display:block;
+        font-family:Helvetica;
+        font-size:20px;
+        font-style:normal;
+        font-weight:bold;
+        line-height:100%;
+        letter-spacing:normal;
+        margin-top:0;
+        margin-right:0;
+        margin-bottom:10px;
+        margin-left:0;
+        text-align:left;
+      }
 
-			h3{
-				color:#606060 !important;
-				display:block;
-				font-family:Helvetica;
-				font-size:16px;
-				font-style:italic;
-				font-weight:normal;
-				line-height:100%;
-				letter-spacing:normal;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				text-align:left;
-			}
+      h3{
+        color:#606060 !important;
+        display:block;
+        font-family:Helvetica;
+        font-size:16px;
+        font-style:italic;
+        font-weight:normal;
+        line-height:100%;
+        letter-spacing:normal;
+        margin-top:0;
+        margin-right:0;
+        margin-bottom:10px;
+        margin-left:0;
+        text-align:left;
+      }
 
-			h4{
-				color:#808080 !important;
-				display:block;
-				font-family:Helvetica;
-				font-size:14px;
-				font-style:italic;
-				font-weight:normal;
-				line-height:100%;
-				letter-spacing:normal;
-				margin-top:0;
-				margin-right:0;
-				margin-bottom:10px;
-				margin-left:0;
-				text-align:left;
-			}
+      h4{
+        color:#808080 !important;
+        display:block;
+        font-family:Helvetica;
+        font-size:14px;
+        font-style:italic;
+        font-weight:normal;
+        line-height:100%;
+        letter-spacing:normal;
+        margin-top:0;
+        margin-right:0;
+        margin-bottom:10px;
+        margin-left:0;
+        text-align:left;
+      }
       .verify-button a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
-				color:#ffffff;
-				font-weight:normal;
-			}
+        color:#ffffff;
+        font-weight:normal;
+      }
 
 
-			#templateHeader{
-				background-color:#F4F4F4;
-				border-top:1px solid #FFFFFF;
-				border-bottom:1px solid #CCCCCC;
-			}
+      #templateHeader{
+        background-color:#F4F4F4;
+        border-top:1px solid #FFFFFF;
+        border-bottom:1px solid #CCCCCC;
+      }
 
-			.headerContent{
-				color:#505050;
-				font-family:Helvetica;
-				font-size:20px;
-				font-weight:bold;
-				line-height:100%;
-				padding-top:0;
-				padding-right:0;
-				padding-bottom:0;
-				padding-left:0;
-				text-align:left;
-				vertical-align:middle;
-			}
-
-
-			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-				color:#ffffff;
-				font-weight:normal;
-			}
-
-			#headerImage{
-				height:auto;
-				max-width:600px;
-			}
+      .headerContent{
+        color:#505050;
+        font-family:Helvetica;
+        font-size:20px;
+        font-weight:bold;
+        line-height:100%;
+        padding-top:0;
+        padding-right:0;
+        padding-bottom:0;
+        padding-left:0;
+        text-align:left;
+        vertical-align:middle;
+      }
 
 
-			#templateBody{
-				border-top:1px solid #FFFFFF;
-				border-bottom:1px solid #CCCCCC;
-			}
+      .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+        color:#ffffff;
+        font-weight:normal;
+      }
 
-			.bodyContent{
-				color:#505050;
-				font-family:Helvetica;
-				font-size:14px;
-				line-height:150%;
-				padding-top:20px;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-				text-align:left;
-			}
+      #headerImage{
+        height:auto;
+        max-width:600px;
+      }
+
+
+      #templateBody{
+        border-top:1px solid #FFFFFF;
+        border-bottom:1px solid #CCCCCC;
+      }
+
+      .bodyContent{
+        color:#505050;
+        font-family:Helvetica;
+        font-size:14px;
+        line-height:150%;
+        padding-top:20px;
+        padding-right:20px;
+        padding-bottom:20px;
+        padding-left:20px;
+        text-align:left;
+      }
 
       .button {
       background-color: #56cfe3;
@@ -162,145 +162,147 @@
     }
 
 
-			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-				color:#ffffff;
-				font-weight:normal;
-			}
+      .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+        color:#ffffff;
+        font-weight:normal;
+      }
 
       .link-blue a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-				color:#1a74c9;
-				font-weight:normal;
-			}
+        color:#1a74c9;
+        font-weight:normal;
+      }
 
-			.bodyContent img{
-				display:inline;
-				height:auto;
-				max-width:560px;
-			}
-
-
-			#templateFooter{
-				background-color:#F4F4F4;
-				border-top:1px solid #FFFFFF;
-			}
+      .bodyContent img{
+        display:inline;
+        height:auto;
+        max-width:560px;
+      }
 
 
-			.footerContent{
-				color:#808080;
-				font-family:Helvetica;
-				font-size:10px;
-				line-height:150%;
-				padding-top:20px;
-				padding-right:20px;
-				padding-bottom:20px;
-				padding-left:20px;
-				text-align:center;
+      #templateFooter{
+        background-color:#F4F4F4;
+        border-top:1px solid #FFFFFF;
+      }
+
+
+      .footerContent{
+        color:#808080;
+        font-family:Helvetica;
+        font-size:10px;
+        line-height:150%;
+        padding-top:20px;
+        padding-right:20px;
+        padding-bottom:20px;
+        padding-left:20px;
+        text-align:center;
         display: block;
-			}
+      }
 
-			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+      /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
 
             @media only screen and (max-width: 480px){
-				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
-				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+        /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
                 body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
 
-				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
-				#bodyCell{padding:10px !important;}
+        /* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+        #bodyCell{padding:10px !important;}
 
-				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+        /* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
 
-				/* ======== Page Styles ======== */
+        /* ======== Page Styles ======== */
 
-				#templateContainer{
-					max-width:600px !important;
-					width:100% !important;
-				}
-
-				h1{
-					font-size:24px !important;
-					line-height:100% !important;
-				}
-
-				h2{
-					font-size:20px !important;
-					line-height:100% !important;
-				}
-
-				h3{
-					font-size:18px !important;
-					line-height:100% !important;
-				}
-
-
-				h4{
-					font-size:16px !important;
-					line-height:100% !important;
-				}
-
-				/* ======== Header Styles ======== */
-
-				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
-
-				#headerImage{
-					height:auto !important;
-					max-width:600px !important;
-					width:100% !important;
-				}
-
-				.headerContent{
-					font-size:20px !important;
-					line-height:125% !important;
-				}
-
-				/* ======== Body Styles ======== */
-
-				.bodyContent{
-					font-size:18px !important;
-					line-height:125% !important;
-				}
-
-				/* ======== Footer Styles ======== */
-
-				.footerContent{
-					font-size:14px !important;
-					line-height:115% !important;
+        #templateContainer{
+          max-width:600px !important;
+          width:100% !important;
         }
-			}
-		</style>
+
+        h1{
+          font-size:24px !important;
+          line-height:100% !important;
+        }
+
+        h2{
+          font-size:20px !important;
+          line-height:100% !important;
+        }
+
+        h3{
+          font-size:18px !important;
+          line-height:100% !important;
+        }
+
+
+        h4{
+          font-size:16px !important;
+          line-height:100% !important;
+        }
+
+        /* ======== Header Styles ======== */
+
+        #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+        #headerImage{
+          height:auto !important;
+          max-width:600px !important;
+          width:100% !important;
+        }
+
+        .headerContent{
+          font-size:20px !important;
+          line-height:125% !important;
+        }
+
+        /* ======== Body Styles ======== */
+
+        .bodyContent{
+          font-size:18px !important;
+          line-height:125% !important;
+        }
+
+        /* ======== Footer Styles ======== */
+
+        .footerContent{
+          font-size:14px !important;
+          line-height:115% !important;
+        }
+      }
+    </style>
     </head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
-    	<center>
-        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
-            	<tr>
-                	<td align="center" valign="top" id="bodyCell">
-                    	<!-- BEGIN TEMPLATE // -->
-                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
-                        	
-                        	<tr>
-                            	<td align="center" valign="top">
-                                	<!-- BEGIN HEADER // -->
+      <center>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+              <tr>
+                  <td align="center" valign="top" id="bodyCell">
+                      <!-- BEGIN TEMPLATE // -->
+                      <table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+                          
+                          <tr>
+                              <td align="center" valign="top">
+                                  <!-- BEGIN HEADER // -->
                                     <table cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
                                       <tr style="border: 1px solid rgb(175, 175, 175);">
                                         <small style="color: rgb(151, 151, 151);">Thanks for trying out Fingage. We’ve pulled together some information and resources to help you get started.</small>
                                       </tr>
                                         <tr>
                                             <td valign="top" style="background:#437e7e; padding:50px;" class="headerContent">
-                                            	<img  src="https://test.getfingage.com/assets/images/logo.png" style="max-width:200px;  display:block;margin-left: auto;margin-right: auto;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                              <a href="{{$result['domain']}}" title="">
+                                              <img  src="https://s3.ap-south-1.amazonaws.com/getfingage.com/assets/images/logo.png" style="max-width:200px;  display:block;margin-left: auto;margin-right: auto;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                              </a>
                                             </td>
                                         </tr>
                                     </table>
                                     <!-- // END HEADER -->
                                 </td>
                             </tr>
-                        	<tr>
-                            	<td align="center" valign="top">
+                          <tr>
+                              <td align="center" valign="top">
                                   <!-- BEGIN BODY // -->
                                   
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
                                         <tr>
                                             <td valign="top" class="bodyContent" mc:edit="body_content">
-                                              <h1>Hi {{name}},</h1>
+                                              <h1>Hi {{$result['username']}},</h1>
                                               You have recently requested to verify your account. Kindly ignore this mail, if you have already verified your account.</br>To get the most out of Fingage, please verify your account by clicking the button below!
                                               <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                                                   <tr>
@@ -311,7 +313,7 @@
                                                             <table border="0" cellspacing="0" cellpadding="0">
                                                               <tr>
                                                                 <td class="verify-button">
-                                                                  <a href="{{action_url}}" class="button button--green" target="_blank">Verify Account</a>
+                                                                  <a href="{{$result['action_url']}}" class="button button--green" target="_blank" style="color:white;">Verify Account</a>
                                                                 </td>
                                                               </tr>
                                                             </table>
@@ -327,25 +329,25 @@
                                                   <td class="attributes_content">
                                                     <table width="100%" cellpadding="0" cellspacing="0">
                                                       <tr>
-                                                        <td class="attributes_item"><strong>Login Page:</strong> <a style="color: blue" rel="stylesheet" href="https://app.getfingage.com"> Fingage Home</a></td>
+                                                        <td class="attributes_item"><strong>Login Page:</strong> <a style="color: blue" rel="stylesheet" href="{{$result['login_url']}}"> Fingage Home</a></td>
                                                       </tr>
                                                       <tr>
-                                                        <td class="attributes_item"><strong>Username:</strong> {{username}}</td>
+                                                        <td class="attributes_item"><strong>Username:</strong> {{$result['username']}}</td>
                                                       </tr>
                                                     </table>
                                                   </td>
                                                 </tr>
                                               </table>
-                                              <p>You've started a 30 day trial. You can upgrade to a paying account or cancel any time.</p>
+                                              <p>You've started a {{$result['trial_length']}} day trial. You can upgrade to a paying account or cancel any time.</p>
                                               <table class="attributes" width="100%" cellpadding="0" cellspacing="0">
                                                 <tr>
                                                   <td class="attributes_content">
                                                     <table width="100%" cellpadding="0" cellspacing="0">
                                                       <tr>
-                                                        <td class="attributes_item"><strong>Trial Start Date:</strong> {{trial_start_date}}</td>
+                                                        <td class="attributes_item"><strong>Trial Start Date:</strong> {{$result['trial_start_date']}}</td>
                                                       </tr>
                                                       <tr>
-                                                        <td class="attributes_item"><strong>Trial End Date:</strong> {{trial_end_date}}</td>
+                                                        <td class="attributes_item"><strong>Trial End Date:</strong> {{$result['trial_end_date']}}</td>
                                                       </tr>
                                                     </table>
                                                   </td>
@@ -360,16 +362,16 @@
                                                 <tr>
                                                   <td>
                                                     <p class="sub">If you’re having trouble with the button above, copy and paste the URL below into your web browser.</p>
-                                                    <p class="sub">{{action_url}}</p>
+                                                    <p class="sub">{{$result['action_url']}}</p>
                                                   </td>
                                                 </tr>
                                               </table>
                                     <!-- // END BODY -->
                                 </td>
                             </tr>
-                        	<tr>
-                            	<td align="center" valign="top">
-                                	<!-- BEGIN FOOTER // -->
+                          <tr>
+                              <td align="center" valign="top">
+                                  <!-- BEGIN FOOTER // -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
                                         <tr>
                                             <td valign="top" class="footerContent" mc:edit="footer_content00">
