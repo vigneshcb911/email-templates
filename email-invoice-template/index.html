@@ -2,16 +2,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Your receipt from Simplecast #6500-0050</title>
-  
-  
-  
-  
-  
+  <title>Your receipt from Simplecast #{{$invoice[0]->invoice_number}}</title>
 </head>
-
 <body>
-
   <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="viewport" content="width=device-width">
@@ -182,7 +175,7 @@
               <tr>
                 <td class="Spacer Spacer--gutter" width="64" style="border: 0;border-collapse: collapse;margin: 0;padding: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;color: #ffffff;font-size: 1px;line-height: 1px;mso-line-height-rule: exactly;">&nbsp;</td>
                 <td class="Content Title-copy Font Font--title" align="center" style="border: 0;border-collapse: collapse;margin: 0;padding: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;width: 472px;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;mso-line-height-rule: exactly;vertical-align: middle;color: #8898aa;font-size: 15px;line-height: 18px;">
-                  Invoice #{{$invoice[0]->invoice_id}}
+                  Invoice #{{$invoice[0]->invoice_number}}
                 </td>
                 <td class="Spacer Spacer--gutter" width="64" style="border: 0;border-collapse: collapse;margin: 0;padding: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;color: #ffffff;font-size: 1px;line-height: 1px;mso-line-height-rule: exactly;">&nbsp;</td>
               </tr>
